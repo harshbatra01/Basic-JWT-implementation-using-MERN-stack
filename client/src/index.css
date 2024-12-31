@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*======================*/
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  background-color: #4ea94b;
+}
+
+.navbar-title{
+  margin: 10px;
+  color: white;
+}
+
+.navbar-buttons{
+  margin: 10px;
+}
+
+.navbar-user{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-user h2{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*======================*/
+
+.create-note{
+  width: 35%;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: solid 2px rgba(128, 128, 128, 0.223);
+  padding: 10px;
+}
+
+.create-note h1 {
+  text-align: center;
+}
+
+.create-note form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-note form button{
+  margin: auto;
+  width: 30%;
+}
+
+/*Login form*/
+.login-form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.login-form {
+  border: solid 1px gray;
+  border-radius: 10px;
+  gap: 5px;
+  padding: 10px;
+  width: 55vw;
+}
+
+.login-title{
+  text-align: center;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-form form button {
+  margin: 20px 25%;
+}
+
+.login-error-message{
+  background-color: #f93d5cde;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.login-error-message h2{
+  font-size: 20px;
+}
+
+/*===============*/
+.note-item{
+  border: solid 1px rgba(0, 0, 0, 0.362);
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  min-height: 75px;
+}
+
+.note-item-actions{
+  display: flex;
+  justify-content: right;
+}
+
+.note-item button{
+  background: none;
+  border: none;
+}
+
+.note-item-description button{
+  color: #4ea94b;
+}
+
+.note-item-content{
+  width: 25%;
+}
+
+.note-item h1{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.note-item p{
+  font-size: 13px;
+}
+
+.note-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
